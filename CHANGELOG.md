@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/compare/v1.0.4...v1.0.5) (2026-01-18)
+
+
+### Bug Fixes
+
+* remove duplicate poster image in hero section ([#10](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/issues/10)) ([3538c1e](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/commit/3538c1e273ba7da1d8a437806fecb38fca0bfe77)), closes [#8](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/issues/8)
+
 ## [1.0.4](https://github.com/KNAPGEMAAKTNL/byshakir/compare/v1.0.3...v1.0.4) (2026-01-18)
 
 
