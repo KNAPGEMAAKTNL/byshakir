@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/KNAPGEMAAKTNL/byshakir/compare/v1.0.3...v1.0.4) (2026-01-18)
+
+
+### Bug Fixes
+
+* verify automated release with proper PAT ([637bbd4](https://github.com/KNAPGEMAAKTNL/byshakir/commit/637bbd44a2babefb4ab2b948c765950d004a146f))
+
 ## [1.0.3](https://github.com/KNAPGEMAAKTNL/byshakir/compare/v1.0.2...v1.0.3) (2026-01-18)
 
 
