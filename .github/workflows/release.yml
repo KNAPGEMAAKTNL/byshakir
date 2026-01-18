@@ -1,0 +1,30 @@
+name: release
+
+on:
+  push:
+    branches: [ "main", "master" ]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          release-type: simple
+          token: ${{ secrets.GITHUB_TOKEN }}
+          skip-github-release: true
+
+      - name: Auto-merge Release PR
+        if: steps.release.outputs.pr
+        run: |
+          PR_NUMBER=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
+          gh pr merge "$PR_NUMBER" --squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
