@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/compare/v1.0.5...v1.0.6) (2026-01-18)
+
+
+### Bug Fixes
+
+* resolve inspiration page gallery glitching ([#16](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/issues/16)) ([fbd6446](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/commit/fbd64467bbf7a37094cae50f57a9b43d9354d26b))
+
 ## [1.0.5](https://github.com/KNAPGEMAAKTNL-Projects/byshakir/compare/v1.0.4...v1.0.5) (2026-01-18)
 
 
